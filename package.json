@@ -1,0 +1,28 @@
+{
+  "name": "chatweb-backend",
+  "version": "1.0.0",
+  "description": "This repository contains my basic chatweb project backend using NodeJS, Express and Socket.io, used to teach about this stacks..",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinuehara/chatweb-backend.git"
+  },
+  "author": "Kevin Uehara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinuehara/chatweb-backend/issues"
+  },
+  "homepage": "https://github.com/kevinuehara/chatweb-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socketio": "^1.0.0"
+  }
+}
